@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+.img {
+    display: flex;
+    max-width: 70vw;
+    flex-flow: row wrap;
+    margin:  12.5vh auto;
+    gap: 15px 15px;
+    justify-content: center;
+
+}
+
+.img img {
+    background-color: aliceblue;
+
+}

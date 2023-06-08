@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1685602729758-cecb632237a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80) no-repeat center;
+    height: 100vh;
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0 0 1px black;
+    font-size: 2rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+
+a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 1.5rem;
+}
+
+nav{
+    display: flex;
+    background-color: rgba(240, 255, 255, 0.256);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0px 50px;
+
+}
